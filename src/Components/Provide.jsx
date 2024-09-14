@@ -1,6 +1,6 @@
 import React from "react";
 
-import human from "../assets/human.svg";
+import human from "../assets/Human.svg";
 
 function Provide() {
   return (

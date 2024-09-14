@@ -1,6 +1,6 @@
 import React from "react";
 
-import ilu from '../assets/Illustration.svg'
+import ilu from "../assets/Illustration.svg";
 
 function GetStarted() {
   return (
@@ -16,13 +16,13 @@ function GetStarted() {
           interesting features from us.
         </p>
         <div>
-          <button className="bg-[#F53838] text-white font-def w-[250px] h-[60px] rounded font-bold rounded-[10px] border-none shadow-lg shadow-red-200">
+          <button className="bg-[#F53838] text-white font-def w-[250px] h-[60px] font-bold rounded-[10px] border-none shadow-lg shadow-red-200">
             Get Started
           </button>
         </div>
       </div>
       <div className="right">
-        <img src={ilu} alt="" className="navbarFirst:w-[500px]"/>
+        <img src={ilu} alt="" className="navbarFirst:w-[500px]" />
       </div>
     </div>
   );
