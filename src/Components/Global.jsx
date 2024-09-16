@@ -22,9 +22,11 @@ function Global() {
         easier for you when you move <br /> locations.
       </p>
 
-      <img src={global} alt="" className="m-0 m-auto mb-[85px] oneonefivezero:w-full" />
+      <div className="flex justify-center">
+        <img src={global} alt="" className="mb-[85px]" />
+      </div>
 
-      <div className="flex items-center gap-[65px] justify-center mb-[100px] onetwothreezero:gap-[30px] oneonezerozero:flex-wrap">
+      <div className="flex items-center gap-[65px] justify-center mb-[100px] onetwofivezero:gap-[30px] onetwothreezero:flex-wrap">
         <img src={netflix} alt="" />
         <img src={reddit} alt="" />
         <img src={amazon} alt="" />
@@ -39,8 +41,8 @@ function Global() {
         <br /> pleasure when using this crazy feature.
       </p>
 
-      <div className="flex justify-center gap-[40px] onethreefivezero:flex-wrap">
-        <div className="w-[450px] h-[230px] rounded border-[#F53838] border-[2px]">
+      <div className="flex justify-center gap-[40px] onefourfourzero:flex-wrap">
+        <div className="w-[450px] h-[230px] rounded border-[#F53838] border-[2px] fourthreezero:w-full">
           <div className="flex items-center px-[30px] py-[30px]">
             <img src={viezh} alt="" />
             <div className="ml-5">
@@ -51,7 +53,7 @@ function Global() {
                 Warsaw, Poland
               </p>
             </div>
-            <p className="flex items-center ml-[108px] gap-[10px]">
+            <p className="flex items-center ml-[108px] gap-[10px] fourthreezero:ml-12">
               4.5
               <svg
                 width="16"
@@ -69,15 +71,15 @@ function Global() {
             <div></div>
           </div>
           <p className="font-def text-[#0B132A] text-[16px] px-[30px] my-[-10px] leading-[30px]">
-            “Wow... I am very happy to use this VPN, it turned out to be
-            more than my expectations and so far there have been no
-            problems. LaslesVPN always the best”.
+            “Wow... I am very happy to use this VPN, it turned out to be more
+            than my expectations and so far there have been no problems.
+            LaslesVPN always the best”.
           </p>
         </div>
-        <div className="w-[450px] h-[230px] rounded border-[#DDDDDD] border-[2px]">
+        <div className="w-[450px] h-[230px] rounded border-[#DDDDDD] border-[2px] fourthreezero:w-full">
           <div className="flex items-center px-[30px] py-[30px]">
             <img src={yessica} alt="" />
-            <div className="ml-5">
+            <div className="ml-5 fourthreezero:ml-2">
               <p className="font-def font-semibold text-[18px] w-[140px]">
                 Yessica Christy
               </p>
@@ -85,7 +87,7 @@ function Global() {
                 Shanxi, China
               </p>
             </div>
-            <p className="flex items-center ml-[130px] gap-[10px]">
+            <p className="flex items-center ml-[130px] gap-[10px] fourthreezero:ml-12">
               4.5
               <svg
                 width="16"
@@ -106,7 +108,7 @@ function Global() {
             high speed.”.
           </p>
         </div>
-        <div className="w-[450px] h-[230px] rounded border-[#DDDDDD] border-[2px]">
+        <div className="w-[450px] h-[230px] rounded border-[#DDDDDD] border-[2px] fourthreezero:w-full">
           <div className="flex items-center px-[30px] py-[30px]">
             <img src={kim} alt="" />
             <div className="ml-5">
@@ -117,7 +119,7 @@ function Global() {
                 Seoul, South Korea
               </p>
             </div>
-            <p className="flex items-center ml-[108px] gap-[10px]">
+            <p className="flex items-center ml-[108px] gap-[10px] fourthreezero:ml-12">
               4.5
               <svg
                 width="16"

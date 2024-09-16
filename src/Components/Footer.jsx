@@ -7,7 +7,7 @@ import insta from "../assets/Instagram.svg";
 
 function Footer() {
   return (
-    <div className="bg-[#F8F8F8] w-full h-[450px] py-[180px] justify-center flex gap-[250px] oneonefivezero:gap-[100px] oneonefivezero:w-full">
+    <div className="bg-[#F8F8F8] w-full h-[450px] py-[180px] justify-center flex gap-[250px] oneonefivezero:gap-[150px] ninethreezero:gap-[100px] eightninezero:flex-wrap eightninezero:h-auto">
       <div>
         <img src={logo} alt="" className="mb-5" />
         <p className="text-[#4F5665] text-[16px] font-def leading-[30px] mb-[25px]">
@@ -20,7 +20,7 @@ function Footer() {
           <img src={insta} alt="" className="ml-[-12px]"/>
         </div>
       </div>
-      <div className="flex gap-[130px]">
+      <div className="flex gap-[130px] oneonefivezero:gap-[80px]">
         <div>
             <p className="font-for mb-5 text-[#0B132A] font-semibold text-[18px]">Product</p>
             <p className="font-for text-[#4F5665] text-[16px] mb-[10px]">Download</p>

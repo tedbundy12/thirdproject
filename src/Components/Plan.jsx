@@ -9,11 +9,11 @@ function Plan() {
         Choose Your Plan
       </p>
       <p className="text-[#4F5665] leading-[30px] text-center mb-[60px]">
-        Let's choose the package that is best for you and explore it happily and{" "}
+        Let's choose the package that is <br className="hidden fivezeronine:block"/> best for you and explore it happily and{" "}
         <br /> cheerfully.
       </p>
 
-      <div className="flex justify-center m-0 m-auto oneonefivezero:flex-wrap gap-[50px]">
+      <div className="flex justify-center m-0 m-auto gap-[50px] oneonefivezero:gap-[20px] onezerofourzero:flex-wrap">
         <div className="w-[330px] h-[760px] border-[2px] border-[#DDDDDD] rounded text-center">
           <img src={free} alt="" className="m-auto pt-[80px] mb-[30px]" />
           <p className="font-def font-medium text-[18px] text-[#0B132A] mb-[30px]">

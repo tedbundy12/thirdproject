@@ -4,16 +4,16 @@ import human from "../assets/Human.svg";
 
 function Provide() {
   return (
-    <div className="flex bg-[white] py-[95px] justify-center items-center gap-[170px]">
+    <div className="flex bg-[white] py-[95px]  eightfivethree:py-[200px] justify-center items-center gap-[170px] onezerozerozero:gap-[120px] eightthreezero:flex-wrap">
       <div className="left">
-        <img src={human} alt="" />
+        <img src={human} alt="" className="oneonefivezero:w-[450px] ninefivezero:w-[350px] eightthreezero:w-full"/>
       </div>
       <div className="right">
         <p className="leading-[50px] font-def text-[#0B132A] font-medium text-[35px] mb-5">
           We Provide Many <br /> Features You Can Use
         </p>
         <p className="leading-[30px] font-def text-[#4F5665] text-[16px] mb-[22px]">
-          You can explore the features that we provide with fun and <br /> have
+          You can explore the features that we provide with <br className="hidden onezeroeightfive:block"/> fun and <br className="onezeroeightfive:hidden"/> have
           their own functions each feature.
         </p>
 
