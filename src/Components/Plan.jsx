@@ -277,7 +277,7 @@ function Plan() {
           <p className="text-[#0B132A] text-[25px] font-def font-bold mb-5">
             $12 <span className="text-[#4F5665] font-normal">/ mo</span>
           </p>
-          <button className="w-[177px] h-[45px] font-def font-bold text-[white] border-2 border-red-500 text-red-500 rounded-full px-6 py-2 bg-red-500 hover:bg-white hover:text-red-500 transition-colors duration-300 shadow-lg shadow-red-200">
+          <button className="w-[177px] h-[45px] font-def font-bold text-[white] border-2 border-red-500 hover:text-red-500 rounded-full px-6 py-2 bg-red-500 hover:bg-white hover:text-red-500 transition-colors duration-300 shadow-lg shadow-red-200">
             Select
           </button>
         </div>
